@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 300px;
+}
+.texts h2{
+    text-align: center;
+}
+.efficient{
+    display: inline;
+    font-weight: 100;
+    font-size: x-large;
+    line-height: 30px;
+    color: hsl(212, 6%, 44%);
+}
+.tech{
+    padding-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+}
+.texts small{
+    width: 300px;
+    text-align: center;
+    font-size: x-small;
+}
+small{
+    display: block;
+    color: hsl(212, 6%, 44%);
+}
+h4{
+   color: hsl(234, 12%, 34%);
+   padding-bottom: 7px;
+}
+img{
+    width: 40px;
+    padding-top: 30px;
+    float: right;
+}
+.supervisor ,.builder ,.karma ,.calculator{
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -2px 6px 10px lightgrey;
+}
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.builder{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.builder-karma{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.supervisor-builder-karma{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+.all-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
